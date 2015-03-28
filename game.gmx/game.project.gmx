@@ -32,11 +32,7 @@
     <object>objects\obj_enemy4</object>
     <object>objects\obj_enemy5</object>
     <object>objects\obj_bullet</object>
-    <object>objects\obj_timing1</object>
-    <object>objects\obj_timing2</object>
-    <object>objects\obj_timing3</object>
-    <object>objects\obj_timing4</object>
-    <object>objects\obj_timing5</object>
+    <object>objects\create_enemies</object>
     <object>objects\obj_basket1</object>
     <object>objects\obj_basket2</object>
     <object>objects\obj_basket3</object>
