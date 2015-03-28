@@ -14,7 +14,7 @@
     <sprite>sprites\enemy4</sprite>
     <sprite>sprites\enemy5</sprite>
     <sprite>sprites\bullet</sprite>
-    <sprite>sprites\basket_!</sprite>
+    <sprite>sprites\basket_1</sprite>
     <sprite>sprites\basket_2</sprite>
     <sprite>sprites\basket_3</sprite>
     <sprite>sprites\basket_4</sprite>
@@ -24,6 +24,11 @@
     <background>background\gameBackground</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\GlobalVar.gml</script>
+    <script>scripts\ThorwBulletAction.gml</script>
+    <script>scripts\onVikingCreate.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_viking</object>
     <object>objects\obj_enemy1</object>
@@ -38,7 +43,8 @@
     <object>objects\obj_basket3</object>
     <object>objects\obj_basket4</object>
     <object>objects\obj_basket5</object>
-    <object>objects\object19</object>
+    <object>objects\regenerate_food</object>
+    <object>objects\global_var</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\gameRoom</room>
