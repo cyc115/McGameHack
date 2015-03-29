@@ -81,6 +81,27 @@
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.enemy_size = 200;
+</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="2" enumb="2">
       <action>
@@ -123,7 +144,24 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_create(irandom_range(180, 860),750,obj_enemy3);
+            <string>new_x = irandom_range(180, 860);
+new_y = 750;
+point_is_free = true;
+with (obj_enemy_parent)
+{
+    if (point_distance(x,y,other.new_x,other.new_y) &lt; global.enemy_size)
+    {
+        other.point_is_free = false;
+    }
+}
+if (point_is_free)
+{
+    instance_create(irandom_range(180, 860),750,obj_enemy3);
+}
+else
+{
+    alarm[2] = 30;
+}
 </string>
           </argument>
         </arguments>
@@ -170,7 +208,24 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_create(irandom_range(180, 860),750,obj_enemy2);
+            <string>new_x = irandom_range(180, 860);
+new_y = 750;
+point_is_free = true;
+with (obj_enemy_parent)
+{
+    if (point_distance(x,y,other.new_x,other.new_y) &lt; global.enemy_size)
+    {
+        other.point_is_free = false;
+    }
+}
+if (point_is_free)
+{
+    instance_create(irandom_range(180, 860),750,obj_enemy2);
+}
+else
+{
+    alarm[2] = 30;
+}
 </string>
           </argument>
         </arguments>
@@ -217,7 +272,24 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_create(irandom_range(180, 860), 750,obj_enemy1);
+            <string>new_x = irandom_range(180, 860);
+new_y = 750;
+point_is_free = true;
+with (obj_enemy_parent)
+{
+    if (point_distance(x,y,other.new_x,other.new_y) &lt; global.enemy_size)
+    {
+        other.point_is_free = false;
+    }
+}
+if (point_is_free)
+{
+    instance_create(irandom_range(180, 860),750,obj_enemy1);
+}
+else
+{
+    alarm[2] = 30;
+}
 </string>
           </argument>
         </arguments>

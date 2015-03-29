@@ -33,11 +33,18 @@
     <sprite>sprites\fat_enemy3</sprite>
     <sprite>sprites\endGameSprite</sprite>
     <sprite>sprites\sprite21_Burger</sprite>
+    <sprite>sprites\sprite24</sprite>
+    <sprite>sprites\hit3_</sprite>
+    <sprite>sprites\hit2_</sprite>
+    <sprite>sprites\hit1_</sprite>
+    <sprite>sprites\sprite26</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\gameBackground</background>
     <background>background\Tower</background>
     <background>background\GameOverScreen (1)</background>
+    <background>background\background3</background>
+    <background>background\story</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -62,9 +69,13 @@
     <object>objects\left_food_pile</object>
     <object>objects\right_food_pile</object>
     <object>objects\obj_gameEnd</object>
-    <object>objects\object13</object>
+    <object>objects\obj_enemy_parent</object>
+    <object>objects\next_room</object>
+    <object>objects\story_page</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\start</room>
+    <room>rooms\room3</room>
     <room>rooms\gameRoom</room>
     <room>rooms\gameEnd</room>
   </rooms>
