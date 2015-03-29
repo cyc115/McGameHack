@@ -7,8 +7,12 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\viking</sprite>
-    <sprite>sprites\moving_viking</sprite>
+    <sprite>sprites\left_viking</sprite>
+    <sprite>sprites\left_throwing</sprite>
+    <sprite>sprites\right_throwing</sprite>
+    <sprite>sprites\right_viking</sprite>
+    <sprite>sprites\left_moving</sprite>
+    <sprite>sprites\right_moving</sprite>
     <sprite>sprites\enemy1</sprite>
     <sprite>sprites\enemy2</sprite>
     <sprite>sprites\enemy3</sprite>
