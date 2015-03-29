@@ -35,3 +35,6 @@ if (global.itemInHand == 0 ){
 	}
 
 }
+
+x = xprevious;
+y = yprevious;
