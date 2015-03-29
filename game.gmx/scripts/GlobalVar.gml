@@ -30,3 +30,10 @@ global.CHANCE_OF_FOOD_GENERATION_T3 = 50 ;
 //this variable is used to choose which busket player should take food from
 global.CURRENT_PLAYER_ROW_NUMBER = 0 ;
 
+//player movement 
+//acceleration is constant 
+global.MAX_SPEED = 10;  //10 to the right 
+global.MIN_SPEED = -10;  // 10 to the left 
+global.ACCELERATION = 1 ;
+global.deltaMove = 5;
+global.velocity = 0 ;

@@ -59,6 +59,8 @@
     <instance objName="obj_basket1" x="448" y="192" name="inst_6DE19638" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_basket1" x="576" y="192" name="inst_91A8B1BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_basket1" x="736" y="192" name="inst_AD0239D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="left_food_pile" x="144" y="96" name="inst_A4D7E220" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="right_food_pile" x="752" y="96" name="inst_6A9CEABD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

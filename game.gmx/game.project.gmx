@@ -3,6 +3,7 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
+  <datafiles number="1" name="datafiles"/>
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
@@ -19,7 +20,8 @@
     <sprite>sprites\basket_3</sprite>
     <sprite>sprites\basket_4</sprite>
     <sprite>sprites\basket_5</sprite>
-    <sprite>sprites\demo_tile_set</sprite>
+    <sprite>sprites\left_food_pile_sprite</sprite>
+    <sprite>sprites\right_food_pile_sprite</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\gameBackground</background>
@@ -29,6 +31,8 @@
     <script>scripts\GlobalVar.gml</script>
     <script>scripts\ThorwBulletAction.gml</script>
     <script>scripts\onVikingCreate.gml</script>
+    <script>scripts\onLeftFoodPileReached.gml</script>
+    <script>scripts\onRightFoodPileReached.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_viking</object>
@@ -46,6 +50,8 @@
     <object>objects\obj_basket5</object>
     <object>objects\regenerate_food</object>
     <object>objects\global_var</object>
+    <object>objects\left_food_pile</object>
+    <object>objects\right_food_pile</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\gameRoom</room>
