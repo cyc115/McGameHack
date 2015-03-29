@@ -28,6 +28,9 @@
     <sprite>sprites\fat</sprite>
     <sprite>sprites\sprite22</sprite>
     <sprite>sprites\sprite23</sprite>
+    <sprite>sprites\fat_enemy1</sprite>
+    <sprite>sprites\fat_enemy2</sprite>
+    <sprite>sprites\fat_enemy3</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\gameBackground</background>

@@ -3,14 +3,14 @@
   <type>0</type>
   <xorig>450</xorig>
   <yorigin>600</yorigin>
-  <colkind>0</colkind>
+  <colkind>1</colkind>
   <coltolerance>0</coltolerance>
-  <sepmasks>-1</sepmasks>
+  <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
-  <bbox_left>407</bbox_left>
-  <bbox_right>490</bbox_right>
-  <bbox_top>540</bbox_top>
-  <bbox_bottom>654</bbox_bottom>
+  <bbox_left>396</bbox_left>
+  <bbox_right>503</bbox_right>
+  <bbox_top>528</bbox_top>
+  <bbox_bottom>667</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
@@ -20,7 +20,7 @@
   <width>900</width>
   <height>1200</height>
   <frames>
-    <frame index="0">images\enemy2_0.png</frame>
-    <frame index="1">images\enemy2_1.png</frame>
+    <frame index="0">images\fat_enemy3_0.png</frame>
+    <frame index="1">images\fat_enemy3_1.png</frame>
   </frames>
 </sprite>
