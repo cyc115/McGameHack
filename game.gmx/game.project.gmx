@@ -31,6 +31,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\gameBackground</background>
+    <background>background\bg</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
