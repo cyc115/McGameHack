@@ -19,6 +19,7 @@
     <sprite>sprites\basket_3</sprite>
     <sprite>sprites\basket_4</sprite>
     <sprite>sprites\basket_5</sprite>
+    <sprite>sprites\demo_tile_set</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\gameBackground</background>

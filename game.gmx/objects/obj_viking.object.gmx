@@ -96,7 +96,7 @@
           <argument>
             <kind>1</kind>
             <string>image_speed = 0.1;
-x = x + 48;
+x = x + 1;
 </string>
           </argument>
         </arguments>
@@ -147,7 +147,7 @@ x = x + 48;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>x=x - 48;
+            <string>x=x - 1;
 </string>
           </argument>
         </arguments>

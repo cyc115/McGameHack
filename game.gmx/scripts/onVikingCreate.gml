@@ -7,5 +7,5 @@
 * food type 3 : 3
 * flower : 4 
 **/
-globalvar itemInHand;
-itemInHand = 1 ;
+
+global.itemInHand = 1 ;
