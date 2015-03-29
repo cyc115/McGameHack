@@ -57,19 +57,34 @@
 
  if(hit1 != noone)
  {
-    hit1.hp -= 2;
+    hit1.hp -= 1;
+    if (hit1.hp &lt;= 0) {
+        with (hit1){
+            instance_destroy();   
+        }
+    }
     instance_destroy();
  }
 
  if(hit2 != noone)
  {
-    hit2.hp -= 2;
+    hit2.hp -= 1;
+        if (hit2.hp &lt;= 0) {
+        with (hit2){
+            instance_destroy();   
+        }
+    }
     instance_destroy();
  }
 
  if(hit3 != noone)
  {
     hit3.hp -= 1;
+        if (hit3.hp &lt;= 0) {
+        with (hit3){
+            instance_destroy();   
+        }
+    }
     instance_destroy();
  }
 
