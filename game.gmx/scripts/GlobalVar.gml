@@ -18,7 +18,7 @@ global.MAX_ITEM_IN_BUSKET = 5;
 //ranging from 0 to 100 , 50 means 50% chance to regen per script call
 global.CHANCE_OF_FOOD_GENERATION_T1 = 50 ; 
 global.CHANCE_OF_FOOD_GENERATION_T2 = 50 ; 
-global.CHANCE_OF_FOOD_GENERATION_T3 = 50 ; 
+global.CHANCE_OF_FOOD_GENERATION_T3 = 20 ; 
 
 /**
 * Concerning player position

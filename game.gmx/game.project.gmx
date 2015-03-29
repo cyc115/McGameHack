@@ -39,6 +39,7 @@
     <script>scripts\onVikingCreate.gml</script>
     <script>scripts\onLeftFoodPileReached.gml</script>
     <script>scripts\onRightFoodPileReached.gml</script>
+    <script>scripts\regenerateFood.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_viking</object>

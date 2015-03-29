@@ -157,59 +157,41 @@
       </action>
       <action>
         <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
+        <id>601</id>
+        <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
+        <exetype>1</exetype>
+        <functionname>action_execute_script</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>1</kind>
-            <string>/**
-* Alarm set to once every 30 frames == 1/sec 
-* variables are decleared and initialized in regenerate_food_create_1 script file
-**/
-
-//if the busket has space then randomly regenerate food
-if ( global.itemInBusket0 &lt; global.MAX_ITEM_IN_BUSKET ) {
-	//add a new food in random 
-	if (irandom_range(0,100) &gt;= CHANCE_OF_FOOD_GENERATION){
-		global.itemInBusket0++;
-	}
-}
-if ( global.itemInBusket1 &lt; global.MAX_ITEM_IN_BUSKET ) {
-		//add a new food in random 
-	if (irandom_range(0,100) &gt;= CHANCE_OF_FOOD_GENERATION){
-		global.itemInBusket1++;
-	}
-}
-if ( global.itemInBusket2 &lt; global.MAX_ITEM_IN_BUSKET ) {
-		//add a new food in random 
-	if (irandom_range(0,100) &gt;= CHANCE_OF_FOOD_GENERATION){
-		global.itemInBusket2++;
-	}
-}
-if ( global.itemInBusket3 &lt; global.MAX_ITEM_IN_BUSKET ) {
-		//add a new food in random 
-	if (irandom_range(0,100) &gt;= CHANCE_OF_FOOD_GENERATION){
-		global.itemInBusket3++;
-	}
-}
-if ( global.itemInBusket4 &lt; global.MAX_ITEM_IN_BUSKET ) {
-		//add a new food in random 
-	if (irandom_range(0,100) &gt;= CHANCE_OF_FOOD_GENERATION){
-		global.itemInBusket4++;
-	}
-}
-
-
-</string>
+            <kind>9</kind>
+            <script>regenerateFood</script>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
           </argument>
         </arguments>
       </action>
