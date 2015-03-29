@@ -54,8 +54,6 @@
             <string> hit1 =  instance_place(x,y,obj_enemy1);
  hit2 =  instance_place(x,y,obj_enemy2);
  hit3 =  instance_place(x,y,obj_enemy3);
- hit4 =  instance_place(x,y,obj_enemy4);
- hit5 =  instance_place(x,y,obj_enemy5);
 
  if(hit1 != noone)
  {
@@ -75,17 +73,7 @@
     instance_destroy();
  }
 
- if(hit4 != noone)
- {
-    hit4.hp -= 2;
-    instance_destroy();
- }
 
- if(hit5 != noone)
- {
-    hit5.hp -= 2;
-    instance_destroy();
- }
 </string>
           </argument>
         </arguments>
