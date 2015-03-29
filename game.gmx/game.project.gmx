@@ -22,6 +22,8 @@
     <sprite>sprites\basket_5</sprite>
     <sprite>sprites\left_food_pile_sprite</sprite>
     <sprite>sprites\right_food_pile_sprite</sprite>
+    <sprite>sprites\foodType1Sprite</sprite>
+    <sprite>sprites\foodType2Sprite</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\gameBackground</background>
@@ -42,6 +44,8 @@
     <object>objects\obj_enemy4</object>
     <object>objects\obj_enemy5</object>
     <object>objects\obj_bullet</object>
+    <object>objects\foodT1</object>
+    <object>objects\foodT2</object>
     <object>objects\create_enemies</object>
     <object>objects\obj_basket1</object>
     <object>objects\obj_basket2</object>
