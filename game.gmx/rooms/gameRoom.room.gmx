@@ -58,8 +58,8 @@
     <instance objName="obj_basket1" x="448" y="192" name="inst_6DE19638" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_basket1" x="576" y="192" name="inst_91A8B1BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_basket1" x="736" y="192" name="inst_AD0239D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="left_food_pile" x="96" y="144" name="inst_A4D7E220" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="right_food_pile" x="704" y="144" name="inst_6A9CEABD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="left_food_pile" x="192" y="144" name="inst_A4D7E220" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="right_food_pile" x="832" y="144" name="inst_6A9CEABD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_viking" x="384" y="144" name="inst_F4F85E7C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="global_var" x="1008" y="624" name="inst_4AF3ECA2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="regenerate_food" x="1008" y="608" name="inst_422CC811" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

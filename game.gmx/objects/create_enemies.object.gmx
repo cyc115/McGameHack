@@ -157,29 +157,22 @@
       </action>
       <action>
         <libid>1</libid>
-        <id>201</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_create_object</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
-        <relative>-1</relative>
+        <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>10</kind>
-            <object>obj_enemy5</object>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>313</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>448</string>
+            <kind>1</kind>
+            <string>instance_create(irandom_range(205, 822),750,obj_enemy5);
+</string>
           </argument>
         </arguments>
       </action>
@@ -211,29 +204,22 @@
       </action>
       <action>
         <libid>1</libid>
-        <id>201</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_create_object</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
-        <relative>-1</relative>
+        <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>10</kind>
-            <object>obj_enemy4</object>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>240</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>448</string>
+            <kind>1</kind>
+            <string>instance_create(irandom_range(205, 822),750,obj_enemy4);
+</string>
           </argument>
         </arguments>
       </action>
@@ -265,29 +251,22 @@
       </action>
       <action>
         <libid>1</libid>
-        <id>201</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_create_object</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
-        <relative>-1</relative>
+        <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>10</kind>
-            <object>obj_enemy3</object>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>200</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>448</string>
+            <kind>1</kind>
+            <string>instance_create(irandom_range(205, 822),750,obj_enemy3);
+</string>
           </argument>
         </arguments>
       </action>
@@ -319,29 +298,22 @@
       </action>
       <action>
         <libid>1</libid>
-        <id>201</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_create_object</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
-        <relative>-1</relative>
+        <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>10</kind>
-            <object>obj_enemy2</object>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>154</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>448</string>
+            <kind>1</kind>
+            <string>instance_create(irandom_range(205, 822),750,obj_enemy2);
+</string>
           </argument>
         </arguments>
       </action>
@@ -373,29 +345,22 @@
       </action>
       <action>
         <libid>1</libid>
-        <id>201</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_create_object</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
-        <relative>-1</relative>
+        <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>10</kind>
-            <object>obj_enemy1</object>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>100</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>448</string>
+            <kind>1</kind>
+            <string>instance_create(irandom_range(205, 822), 750,obj_enemy1);
+</string>
           </argument>
         </arguments>
       </action>
