@@ -21,4 +21,3 @@ if ( global.ft3 < global.MAX_ITEM_IN_BUSKET ) {
 		global.ft3++;
 	}
 }
-

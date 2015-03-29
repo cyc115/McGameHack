@@ -36,4 +36,3 @@ else if (global.itemInHand == 3){
 else {
 	//something went wrong
 }
-

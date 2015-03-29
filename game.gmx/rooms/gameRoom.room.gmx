@@ -52,12 +52,12 @@
   </views>
   <instances>
     <instance objName="create_enemies" x="16" y="32" name="inst_5C6E76E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_enemy1" x="208" y="608" name="inst_A067EBA8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="left_food_pile" x="144" y="64" name="inst_A4D7E220" locked="0" code="" scaleX="2" scaleY="3" colour="4294967295" rotation="0"/>
-    <instance objName="right_food_pile" x="912" y="64" name="inst_6A9CEABD" locked="0" code="" scaleX="2" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemy1" x="304" y="752" name="inst_A067EBA8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="regenerate_food" x="1008" y="608" name="inst_422CC811" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_viking" x="304" y="80" name="inst_F4F85E7C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="global_var" x="1008" y="624" name="inst_4AF3ECA2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="regenerate_food" x="1008" y="608" name="inst_422CC811" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="right_food_pile" x="960" y="64" name="inst_708DDA81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="left_food_pile" x="80" y="64" name="inst_F9E15F21" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
